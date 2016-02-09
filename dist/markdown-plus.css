@@ -3009,24 +3009,25 @@ img.emojione {
 }
 
 .mermaid .label {
-    color: #333
+    color: #a0a0a0
 }
 
 .node circle,
 .node ellipse,
 .node polygon,
 .node rect {
-    fill: #ECECFF;
-    stroke: #CCF;
+    fill: #414141;
+    stroke: #606060;
     stroke-width: 1px
 }
 
 .edgePath .path {
-    stroke: #333
+    stroke: #a0a0a0
 }
 
 .edgeLabel {
-    background-color: #e8e8e8
+    color: #a0a0a0;
+    background-color: #282828
 }
 
 .cluster rect {
@@ -3037,16 +3038,16 @@ img.emojione {
 }
 
 .cluster text {
-    fill: #333
+    fill: #a0a0a0
 }
 
 .actor {
-    stroke: #CCF;
-    fill: #ECECFF
+    fill: #414141;
+    stroke: #606060;
 }
 
 text.actor {
-    fill: #000;
+    fill: #a0a0a0;
     stroke: none
 }
 
@@ -3058,47 +3059,47 @@ text.actor {
 .messageLine1 {
     stroke-width: 1.5;
     stroke-dasharray: "2 2";
-    stroke: #333
+    stroke: #a09060
 }
 
 #arrowhead {
-    fill: #333
+    fill: #a09060
 }
 
 #crosshead path {
-    fill: #333!important;
-    stroke: #333!important
+    fill: #f33!important;
+    stroke: #f33!important
 }
 
 .messageText {
-    fill: #333;
+    fill: #a0a0a0;
     stroke: none
 }
 
 .labelBox {
-    stroke: #CCF;
-    fill: #ECECFF
+    fill: #414141;
+    stroke: #606060;
 }
 
 .labelText,
 .loopText {
-    fill: #000;
+    fill: #a0a0a0;
     stroke: none
 }
 
 .loopLine {
     stroke-width: 2;
     stroke-dasharray: "2 2";
-    stroke: #CCF
+    stroke: #8090a0
 }
 
 .note {
     stroke: #aa3;
-    fill: #fff5ad
+    fill: #0ff5ad
 }
 
 .noteText {
-    fill: #000;
+    fill: #a0a0a0;
     stroke: none;
     font-size: 14px
 }
@@ -3126,7 +3127,7 @@ text.actor {
 .sectionTitle1,
 .sectionTitle2,
 .sectionTitle3 {
-    fill: #333
+    fill: #a0a0c0
 }
 
 .sectionTitle {
@@ -3139,6 +3140,10 @@ text.actor {
     stroke: #d3d3d3;
     opacity: .3;
     shape-rendering: crispEdges
+}
+
+.grid .tick text {
+    fill: #a0a0c0;
 }
 
 .grid path {
@@ -3161,13 +3166,13 @@ text.actor {
 }
 
 .taskTextOutsideRight {
-    fill: #000;
+    fill: #f00;
     text-anchor: start;
     font-size: 11px
 }
 
 .taskTextOutsideLeft {
-    fill: #000;
+    fill: #f00;
     text-anchor: end;
     font-size: 11px
 }
@@ -3191,7 +3196,7 @@ text.actor {
 .taskTextOutside1,
 .taskTextOutside2,
 .taskTextOutside3 {
-    fill: #000
+    fill: #a0a0a0
 }
 
 .active0,
@@ -3206,14 +3211,14 @@ text.actor {
 .activeText1,
 .activeText2,
 .activeText3 {
-    fill: #000!important
+    fill: #a0a0a0!important
 }
 
 .done0,
 .done1,
 .done2,
 .done3 {
-    stroke: grey;
+    stroke: #383;
     fill: #d3d3d3;
     stroke-width: 2
 }
@@ -3222,14 +3227,14 @@ text.actor {
 .doneText1,
 .doneText2,
 .doneText3 {
-    fill: #000!important
+    fill: #a0a0a0!important
 }
 
 .crit0,
 .crit1,
 .crit2,
 .crit3 {
-    stroke: #f88;
+    stroke: #f04040;
     fill: red;
     stroke-width: 2
 }
@@ -3238,7 +3243,7 @@ text.actor {
 .activeCrit1,
 .activeCrit2,
 .activeCrit3 {
-    stroke: #f88;
+    stroke: #f05030;
     fill: #bfc7ff;
     stroke-width: 2
 }
@@ -3247,7 +3252,7 @@ text.actor {
 .doneCrit1,
 .doneCrit2,
 .doneCrit3 {
-    stroke: #f88;
+    stroke: #e07030;
     fill: #d3d3d3;
     stroke-width: 2;
     cursor: pointer;
@@ -3262,16 +3267,17 @@ text.actor {
 .doneCritText1,
 .doneCritText2,
 .doneCritText3 {
-    fill: #000!important
+    fill: #a0a0a0!important
 }
 
 .titleText {
     text-anchor: middle;
     font-size: 18px;
-    fill: #000
+    fill: #a0a0a0
 }
 
 .node text {
+    color: #f00;
     font-size: 14px
 }
 
@@ -10801,26 +10807,26 @@ li.footnote-item>p {
 }
 
 .success {
-    color: #3c763d;
-    background-color: #dff0d8;
+    color: #dff0d8;
+    background-color: #3c763d;
     border-color: #d6e9c6
 }
 
 .info {
-    color: #31708f;
-    background-color: #d9edf7;
+    color: #d9edf7;
+    background-color: #31708f;
     border-color: #bce8f1
 }
 
 .warning {
-    color: #8a6d3b;
-    background-color: #fcf8e3;
+    color: #fcf8e3;
+    background-color: #8a6d3b;
     border-color: #faebcc
 }
 
 .danger {
-    color: #a94442;
-    background-color: #f2dede;
+    color: #f2dede;
+    background-color: #a94442;
     border-color: #ebccd1
 }
 
