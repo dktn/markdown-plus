@@ -1866,7 +1866,7 @@ body {
 }
 
 .ui-layout-pane {
-    background: #323232;
+    background: #2d2d2d;
     border: 1px solid #BBB;
     overflow: auto
 }
@@ -10869,11 +10869,11 @@ mark {
 }
 
 .ui-layout-toggler {
-    background-color: #ccc
+    background-color: #2d2d2d
 }
 
 .ui-layout-toggler:hover {
-    background-color: #add8e6
+    background-color: #202020
 }
 
 #toolbar {
