@@ -1866,6 +1866,7 @@ body {
 }
 
 .ui-layout-pane {
+    background: #323232;
     border: 1px solid #BBB;
     overflow: auto
 }
@@ -2360,7 +2361,7 @@ div.mermaidTooltip {
 }
 
 .markdown-body {
-    color: #333;
+    color: #c0c0c0;
     font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 16px;
     line-height: 1.6;
@@ -2681,12 +2682,12 @@ ul.toc ul {
 }
 
 .markdown-body table tr {
-    background-color: #fff;
+    background: #282828;
     border-top: 1px solid #ccc
 }
 
 .markdown-body table tr:nth-child(2n) {
-    background-color: #f8f8f8
+    background: #2a2a2a;
 }
 
 .markdown-body img {
@@ -2729,7 +2730,7 @@ ul.toc ul {
     overflow: auto;
     font-size: 85%;
     line-height: 1.45;
-    background-color: #f7f7f7;
+    background-color: #202020;
     border-radius: 3px
 }
 
@@ -2739,6 +2740,7 @@ ul.toc ul {
 }
 
 .markdown-body pre code {
+    color: #a0a0a0;
     display: inline;
     max-width: initial;
     padding: 0;
@@ -2771,7 +2773,7 @@ ul.toc ul {
 
 .markdown-body .pl-s .pl-s1,
 .markdown-body .pl-smi {
-    color: #333
+    color: #f33
 }
 
 .markdown-body .pl-ent {
@@ -2826,12 +2828,12 @@ ul.toc ul {
 }
 
 .markdown-body .pl-mi {
-    color: #333;
+    color: #f33;
     font-style: italic
 }
 
 .markdown-body .pl-mb {
-    color: #333;
+    color: #f33;
     font-weight: 700
 }
 
@@ -2891,7 +2893,7 @@ div.mermaidTooltip {
     display: block;
     overflow-x: auto;
     padding: .5em;
-    color: #333;
+    color: #f33;
     background: #f8f8f8
 }
 
@@ -2910,7 +2912,7 @@ div.mermaidTooltip {
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-subst {
-    color: #333;
+    color: #c06050;
     font-weight: 700
 }
 
