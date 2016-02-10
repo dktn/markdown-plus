@@ -958,7 +958,7 @@ body .ui-tooltip {
 
 .ui-widget-content {
     border: 1px solid #ddd;
-    background: url(images/ui-bg_highlight-soft_100_eeeeee_1x100.png) 50% top repeat-x #eee;
+    background: url(images/ui-bg_highlight-soft_100_eeeeee_1x100.png) 50% top repeat-x #424242;
     color: #333
 }
 
@@ -2423,7 +2423,7 @@ div.mermaidTooltip {
 .markdown-body h1,
 .markdown-body h2 {
     padding-bottom: .3em;
-    border-bottom: 1px solid #eee
+    border-bottom: 1px solid #424242
 }
 
 .markdown-body ol ol,
@@ -2606,7 +2606,7 @@ ul.toc ul {
 
 .markdown-body hr {
     overflow: hidden;
-    background: #e7e7e7;
+    background: #424242;
     height: 4px;
     padding: 0;
     margin: 16px 0;
@@ -3366,7 +3366,7 @@ div.mermaidTooltip {
 
 .fa-border {
     padding: .2em .25em .15em;
-    border: .08em solid #eee;
+    border: .08em solid #424242;
     border-radius: .1em
 }
 
@@ -10777,8 +10777,9 @@ div.mermaid {
 }
 
 hr.footnotes-sep {
+    background: #424242;
     margin: 128px 0 32px;
-    height: 1px
+    height: 1px;
 }
 
 .footnotes {
@@ -10865,7 +10866,7 @@ mark {
 }
 
 .ui-layout-north {
-    background-color: #eee
+    background-color: #424242;
 }
 
 .ui-layout-toggler {
